@@ -20,7 +20,7 @@
     color: var(--green-color);
 }
 
-.language:hover .language{
+.language:hover .languagename{
     color: var(--green-color);
 }
 

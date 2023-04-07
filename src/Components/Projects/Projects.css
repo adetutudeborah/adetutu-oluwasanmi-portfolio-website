@@ -6,4 +6,47 @@
     font-weight: 700;
     font-size: 3rem;
     text-transform: uppercase;
+    border-bottom: 2px solid var(--green-color);
+    display: inline-block;
 } 
+
+.projectlist{
+    padding: 5rem 0rem;
+}
+
+.project{
+    padding-bottom: 2rem;
+}
+
+.projectimg{
+    width: 600px;
+    height: 500px;
+}
+
+.projecttitle{
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.tool{
+    text-transform: uppercase;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--light-grey);
+}
+
+.view{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    margin-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--green-color);
+}
+
+.view:hover{
+    color: var(--green-color);
+}
