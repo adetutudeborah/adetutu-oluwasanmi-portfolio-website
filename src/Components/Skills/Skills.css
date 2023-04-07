@@ -16,12 +16,20 @@
     margin: 4rem 0;
 }
 
-.skillicon{
+.language:hover .languageicon{
+    color: var(--green-color);
+}
+
+.language:hover .language{
+    color: var(--green-color);
+}
+
+.languageicon{
     color: var(--white-color);
     font-size: 50px;
 }
 
-.skill{
+.languagename{
     font-weight: 700;
     font-size: 1.6rem;
 }

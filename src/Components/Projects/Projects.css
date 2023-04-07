@@ -1,0 +1,9 @@
+.projectscontainer{
+    margin: 2rem 0;
+}
+
+.projectheader{
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+} 

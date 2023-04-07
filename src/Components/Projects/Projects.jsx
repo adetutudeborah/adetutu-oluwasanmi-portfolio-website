@@ -4,9 +4,14 @@ import './Projects.css';
 function Projects() { 
     return(
      <div className='projectscontainer'>    
-        Projects
+
+        <h2 className='projectheader'>Projects</h2>
+
+        <div>
+
+        </div>
     </div>    
-    )
+    ) 
 }
 
 export default Projects;
