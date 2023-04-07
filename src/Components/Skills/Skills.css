@@ -1,0 +1,27 @@
+.skillscontainer{
+    border-top: 2px solid var(--white-color);
+}
+
+.skillsheader{
+    padding-top: 4rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-bottom: 2px solid var(--green-color);
+    display: inline-block;
+}
+
+.skillssection{
+    padding-top: 4rem;
+    margin: 4rem 0;
+}
+
+.skillicon{
+    color: var(--white-color);
+    font-size: 50px;
+}
+
+.skill{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
