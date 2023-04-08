@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.css'; 
+import './Hero.css';  
  
 function Hero() { 
     return( 
@@ -14,7 +14,7 @@ function Hero() {
          </div>
 
          <div>
-            <a href="https://drive.google.com/file/d/1aVnOInwvvaX6NcImkzYhlzRSg094gZqY/view?usp=sharing" target='_blank' className='myresume'>My resume</a>
+            <a href="" target='_blank' className='myresume'>My resume</a>
          </div>
          
     </div>    
