@@ -102,11 +102,9 @@ textarea::placeholder{
 
 @media screen and (max-width: 1024px) { 
 
-/* .contactcontainer{
-    height: 100%;
-    padding: 0 4rem;
-} */
-
+.contactformcontainer {
+    padding-top: 2rem;
+}
 
 .contactsubtext{ 
     padding-right: 0rem;
@@ -115,10 +113,9 @@ textarea::placeholder{
 } 
 
 @media screen and (max-width: 768px) { 
-/* .contactcontainer{
-    height: 100%;
-    padding: 0 2rem;
-} */
+.contactcontainer{
+    padding: 6rem 2rem;
+}
 
 .contactinnercontainer{
     text-align: center;
@@ -133,6 +130,10 @@ textarea::placeholder{
     padding-right: 0rem;
 }
 
+.contactformcontainer {
+    padding-top: 2rem;
+}
+
 .contactbutton{
     text-align: center;
     }
@@ -140,6 +141,10 @@ textarea::placeholder{
 } 
 
 @media screen and (max-width: 480px) { 
+
+.contactcontainer{
+    padding: 6rem 2rem;
+}
 
 .contactinnercontainer{
     text-align: center;
@@ -152,6 +157,10 @@ textarea::placeholder{
 .contactsubtext{
     font-size: 1rem;
     padding-right: 0rem;
+}
+
+.contactformcontainer {
+    padding-top: 2rem;
 }
 
 .contactbutton{

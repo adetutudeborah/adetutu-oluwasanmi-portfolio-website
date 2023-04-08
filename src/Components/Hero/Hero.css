@@ -1,11 +1,11 @@
-.herocontainer{
-    margin: 5rem 8rem;
+.herocontainer{ 
+    margin: 0rem 8rem;
+    padding: 6rem 0rem 10rem;
 }
 
 .herointro{
     font-weight: 700;
     font-size: 5rem;
-    letter-spacing: -2.5px;
 }
 
 .heroname{
@@ -16,6 +16,8 @@
    color: var(--light-grey);
    font-size: 1rem;
    padding: 2rem 0;
+   padding-right: 21rem;
+   line-height: 2;
 }
 
 .myresume{
@@ -28,4 +30,91 @@
 .myresume:hover{
     color: var(--green-color);
     cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+.herointro{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.herodescription{
+    padding-right: 5rem;
+ }
+}
+
+@media screen and (max-width: 1024px) {
+
+.herocontainer{
+    padding: 1rem 0rem 5rem;
+}
+
+.herointro{
+    font-size: 2.8rem;
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.herodescription{
+   font-size: 1rem;
+   padding: 2rem 0;
+   padding-right: 8rem;
+   line-height: 1.8;
+}
+
+.myresume{
+   font-size: 1.4rem;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.herocontainer{
+    margin: 0rem 2rem;
+    padding: 3rem 0rem 5rem;
+    text-align: center;
+}
+
+.herointro{
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.herodescription{
+   font-size: 1rem;
+   padding: 2rem 2rem;
+   padding-right: 0rem;
+   line-height: 1.8;
+}
+
+.myresume{
+   font-size: 1.4rem;
+}
+
+}
+
+@media screen and  (max-width: 480px) { 
+
+.herocontainer{
+    margin: 0rem 1.6rem;
+    padding: 3rem 0rem 5rem;
+    text-align: center;
+}
+
+.herointro{
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.herodescription{
+   font-size: 1rem;
+   padding: 2rem 0;
+   padding-right: 0rem;
+   line-height: 1.8;
+}
+
+.myresume{
+   font-size: 1.4rem;
+}
 }

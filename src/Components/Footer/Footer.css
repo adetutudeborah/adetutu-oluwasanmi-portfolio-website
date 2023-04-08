@@ -12,11 +12,54 @@
     font-size: 1.5rem;
 }
 
-.socialicon{
+.icon{
    margin-left: 2.5rem;
    font-size: 1.3rem;
 }
 
-.socialicon:hover{
+.icon:hover{
     color: var(--green-color);
+}
+
+@media screen and (max-width: 768px) {
+
+.footercontainer{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footericons{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    margin-left: 0rem;
+    margin: 0rem 1rem;
+    font-size: 1rem;
+    }
+}
+
+@media screen and  (max-width: 480px) { 
+.footercontainer{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footericons{
+    display: flex;
+}
+
+.icon{
+    margin-left: 0rem;
+    margin: 0rem 1rem;
+    font-size: 1rem;
+    }
 }

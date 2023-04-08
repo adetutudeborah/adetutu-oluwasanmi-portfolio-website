@@ -1,10 +1,11 @@
 .skillscontainer{
     border-top: 2px solid var(--white-color);
+    border-bottom: 2px solid var(--white-color);
     margin: 0rem 8rem;
-} 
+}  
 
 .skillsheader{
-    padding-top: 4rem;
+    padding-top: 3rem;
     text-transform: uppercase;
     font-size: 3rem;
     letter-spacing: 2px;
@@ -13,8 +14,7 @@
 }
 
 .skillssection{
-    padding-top: 4rem;
-    margin: 4rem 0;
+    padding: 4rem 0rem 1rem; 
 }
 
 .language:hover .languageicon{
@@ -33,4 +33,58 @@
 .languagename{
     font-weight: 700;
     font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+.skillscontainer{
+    margin: 0rem 2rem;
+} 
+
+.skillsheader{
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+
+.skillssection{
+    padding-top: 3rem;
+    margin: 0rem;
+}
+
+.languageicon{
+    font-size: 40px;
+}
+
+.languagename{
+    font-size: 1.6rem;
+}
+
+}
+
+@media screen and  (max-width: 480px) { 
+.skillscontainer{
+    margin: 0rem 1.5rem;
+} 
+
+.skillsheader{
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+
+.skillssection{
+    padding-top: 3rem;
+    margin: 0rem;
+}
+
+.languageicon{
+    font-size: 30px;
+}
+
+.languagename{
+    font-size: 1rem;
+}
 }

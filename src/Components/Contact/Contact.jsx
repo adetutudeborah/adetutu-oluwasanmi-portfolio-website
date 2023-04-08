@@ -9,7 +9,7 @@ function Contact() {
 
                     <div className="contactinnercontainer col-lg-6">
 
-                        <h2 className='contacttext mb-4'>Contact</h2> 
+                        <h2 className='contacttext mb-4 mt-4'>Contact</h2> 
                         <p className='contactsubtext'> 
                             I would love to hear about your project and how I could help. 
                             Please fill in the form, and I’ll get back to you as soon as possible.

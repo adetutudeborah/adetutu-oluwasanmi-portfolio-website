@@ -6,7 +6,7 @@ function Header() {
      <div className='headercontainer'>    
 
         <div className='headername'>
-            <p className='name'>adetutuOluwasanmi</p>
+            <p className='name'>Adetutu Oluwasanmi</p>
         </div>
 
         <div className='headericons'>

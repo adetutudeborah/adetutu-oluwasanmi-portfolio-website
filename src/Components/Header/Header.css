@@ -7,11 +7,54 @@
 
 .name{
     font-weight: 700;
-    font-size: 1.5rem;
-    letter-spacing: -0.444444px;
+    font-size: 1.5rem; 
+    letter-spacing: -0.444444px; 
 }
 
 .socialicon{
    margin-left: 2.5rem;
    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+.headercontainer{
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.headericons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicon{
+    margin-left: 0rem;
+    margin: 0rem 1rem;
+    font-size: 1rem;
+    }
+}
+
+@media screen and  (max-width: 480px) { 
+.headercontainer{
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.headericons{
+    display: flex;
+}
+
+.socialicon{
+    margin-left: 0rem;
+    margin: 0rem 1rem;
+    font-size: 1rem;
+    }
 }
