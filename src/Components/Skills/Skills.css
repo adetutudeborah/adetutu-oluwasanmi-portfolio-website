@@ -1,6 +1,7 @@
 .skillscontainer{
     border-top: 2px solid var(--white-color);
-}
+    margin: 0rem 8rem;
+} 
 
 .skillsheader{
     padding-top: 4rem;
