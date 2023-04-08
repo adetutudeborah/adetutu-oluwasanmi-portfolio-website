@@ -31,11 +31,16 @@
     letter-spacing: 3px;
 }
 
+.toolsused{
+    display: inline;
+}
+
 .tool{
     text-transform: uppercase;
     margin-right: 1.5rem;
     font-size: 1.2rem;
     color: var(--light-grey);
+    overflow-wrap: anywhere;
 }
 
 .view{
@@ -49,7 +54,7 @@
 }
 
 .view:hover{
-    color: var(--green-color);
+    color: var(--green-color); 
 }
 
 @media screen and (max-width: 1500px) {
@@ -158,4 +163,16 @@
     font-size: 0.8rem;
 }
 
+}
+
+@media screen and  (max-width: 330px) { 
+  .viewproject{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .view{
+    display: inline-block;
+    padding-top: 1rem;
+  }
 }
