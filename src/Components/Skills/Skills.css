@@ -15,14 +15,20 @@
 
 .skillssection{
     padding: 4rem 0rem 1rem; 
+} 
+
+.language{
+    transition: transform 0.25s;
 }
 
 .language:hover .languageicon{
     color: var(--green-color);
+    transform: scale(1.1);
 }
 
 .language:hover .languagename{
     color: var(--green-color);
+    transform: scale(1.1);
 }
 
 .languageicon{
