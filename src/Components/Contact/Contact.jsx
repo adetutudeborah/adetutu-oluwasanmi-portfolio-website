@@ -11,7 +11,7 @@ function Contact() {
 
                         <h2 className='contacttext mb-4 mt-4'>Contact</h2> 
                         <p className='contactsubtext'> 
-                            I would love to hear about your project and how I could help. 
+                            Do you want to collaborate on a project or have an inquiry? I'd love to hear from you! 
                             Please fill in the form, and I’ll get back to you as soon as possible.
                         </p>
                         
