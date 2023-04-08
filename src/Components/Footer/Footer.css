@@ -1,0 +1,22 @@
+.footercontainer{
+    padding: 2rem 8rem;
+    background-color: var(--dark-grey);
+    border-top: 1px solid var(--white-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footername{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.socialicon{
+   margin-left: 2.5rem;
+   font-size: 1.3rem;
+}
+
+.socialicon:hover{
+    color: var(--green-color);
+}
