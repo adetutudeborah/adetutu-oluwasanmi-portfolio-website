@@ -22,7 +22,7 @@ function Contact() {
                      <div className="contactformcontainer col-lg-6">
 
                      <div className="contactform">
-                            <form>
+                            <form action="mailto:oluwasanmiadetutu@gmail.com" method="GET">
                                 <div className="formgroup mt-3 mb-3">
                                     <div className="inputcontainer"> 
                                         <input
