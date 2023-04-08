@@ -13,12 +13,25 @@
 }
 
 .icon{
-   margin-left: 2.5rem;
-   font-size: 1.3rem;
-}
+    color: var(--green-color);
+    margin-left: 2.5rem;
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem; 
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+  }
 
 .icon:hover{
-    color: var(--green-color);
+    color: var(--white-color);
+    background: var(--green-color);
+}
+
+@media screen and (max-width: 1024px) {
+   
+.icon{
+    padding: 0.5rem 0.8rem; 
+    margin-left: 0rem;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -59,7 +72,8 @@
 
 .icon{
     margin-left: 0rem;
-    margin: 0rem 1rem;
+    padding: 0.2rem 0.5rem; 
+    margin: 1rem;
     font-size: 1rem;
     }
 }
