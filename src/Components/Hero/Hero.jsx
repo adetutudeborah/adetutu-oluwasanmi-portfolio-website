@@ -10,7 +10,7 @@ function Hero() {
             <p className='herodescription'> 
             I'm a front-end developer passionate about building and improving web applications. 
             I'm adept at reproducing a pixel-perfect implementation of a front-end design and am constantly looking for ways to enhance user experience. 
-            I'm excited to work with a great team to create high-quality software solutions using my coding and problem-solving skills</p>
+            I'm excited to work with a great team to create high-quality software solutions using my coding and problem-solving skills.</p>
          </div>
 
          <div>
