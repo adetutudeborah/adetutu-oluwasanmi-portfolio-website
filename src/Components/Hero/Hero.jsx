@@ -14,7 +14,7 @@ function Hero() {
          </div>
 
          <div>
-            <a href="https://drive.google.com/file/d/1u8qzPa38V2iBv5TICHAAhLg82tIdrUL8/view?usp=sharing" target='_blank' className='myresume'>My resume</a>
+            <a href="https://drive.google.com/file/d/13MPhCxHv7zN-JXguhE4f3hu-U6XCtN4-/view?usp=sharing" target='_blank' className='myresume'>My resume</a>
          </div>
          
     </div>    
