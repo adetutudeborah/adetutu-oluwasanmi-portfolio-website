@@ -8,9 +8,9 @@ function Hero() {
          <div className='heroheader'>
             <h1 className='herointro'>Nice to meet you! <br /> I’m <span className='heroname'>Adetutu Oluwasanmi</span></h1>
             <p className='herodescription'> 
-            I'm a front-end developer who is passionate about building and improving web applications. 
-            I am always looking for ways to improve front-end design and the user experience. 
-            I'm excited to work with a great team to create high-quality sotware solutions using my coding and problem-solving skills.</p>
+            I'm a front-end developer passionate about building and improving web applications. 
+            I'm adept at reproducing a pixel-perfect implementation of a front-end design and am constantly looking for ways to enhance user experience. 
+            I'm excited to work with a great team to create high-quality software solutions using my coding and problem-solving skills</p>
          </div>
 
          <div>

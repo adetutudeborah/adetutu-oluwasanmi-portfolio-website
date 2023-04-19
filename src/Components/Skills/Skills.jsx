@@ -40,6 +40,11 @@ function Skills() {
                 </div>
 
                 <div class="language col-3 text-center mb-5">  
+                    <span className='languageicon'><i class="devicon-firebase-plain"></i></span>
+                    <h3 class="languagename">Firebase</h3>
+                </div>
+
+                <div class="language col-3 text-center mb-5">  
                     <span className='languageicon'><i class="fa-brands fa-github"></i></span>
                     <h3 class="languagename">GitHub</h3>
                 </div>
