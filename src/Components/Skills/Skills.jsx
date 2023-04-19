@@ -9,32 +9,37 @@ function Skills() {
 
         <div className='skillssection row'>
              
-                <div class="language col-4 text-center mb-5">
+                <div class="language col-3 text-center mb-5">
                     <span className='languageicon'><i class="fa-brands fa-html5"></i></span>
                     <h3 class="languagename">HTML</h3>
                 </div>
 
-                <div class="language col-4 text-center mb-5">  
+                <div class="language col-3 text-center mb-5">  
                     <span className='languageicon'><i class="fa-brands fa-css3-alt"></i></span>
                     <h3 class="languagename">CSS</h3>
                 </div>
 
-                <div class="language col-4 text-center mb-5">  
+                <div class="language col-3 text-center mb-5">  
+                    <span className='languageicon'><i class="devicon-tailwindcss-plain"></i></span>
+                    <h3 class="languagename">Tailwind CSS</h3>
+                </div>
+
+                <div class="language col-3 text-center mb-5">  
                     <span className='languageicon'><i class="fa-brands fa-bootstrap"></i></span>
                     <h3 class="languagename">BootStrap</h3>
                 </div>
 
-                <div class="language col-4 text-center mb-5">  
+                <div class="language col-3 text-center mb-5">  
                     <span className='languageicon'><i class="fa-brands fa-js"></i></span>
                     <h3 class="languagename">JavaScript</h3>
                 </div>
 
-                <div class="language col-4 text-center mb-5">  
+                <div class="language col-3 text-center mb-5">  
                     <span className='languageicon'><i class="fa-brands fa-react"></i></span>
                     <h3 class="languagename">React</h3>
                 </div>
 
-                <div class="language col-4 text-center mb-5">  
+                <div class="language col-3 text-center mb-5">  
                     <span className='languageicon'><i class="fa-brands fa-github"></i></span>
                     <h3 class="languagename">GitHub</h3>
                 </div>
